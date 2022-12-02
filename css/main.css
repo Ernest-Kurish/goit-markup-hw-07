@@ -1171,6 +1171,11 @@ padding-bottom: 34px;
   color: #FFFFFF;
 }
 
+.about-section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .flex-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1279,4 +1284,24 @@ padding-bottom: 34px;
 .btn-marketing {
   padding: 6px 22px;
   min-width: 130px;
+}
+
+.portfolio-title {
+  margin-bottom: 4px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.about-section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
