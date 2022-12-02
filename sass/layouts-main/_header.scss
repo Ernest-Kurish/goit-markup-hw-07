@@ -110,6 +110,19 @@
 .site-nav {
   display: flex;
   margin-left: 93px;
+
+  & .current::after {
+    display: flex;
+    position: absolute;
+    content: "";
+    align-items: flex-end;
+    left: 0%;
+    bottom: -1px;
+    border-radius: 2px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+  }
 }
 
 .site-nav .item + .item {
@@ -118,19 +131,6 @@
 
 .site-nav .link.current {
   color: var(--accent-color);
-}
-
-.site-nav .current::after {
-  display: flex;
-  position: absolute;
-  content: "";
-  align-items: flex-end;
-  left: 0%;
-  bottom: -1px;
-  border-radius: 2px;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
 }
 
 /* Mail and Phone Number Header*/
