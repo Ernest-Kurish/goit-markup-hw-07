@@ -1,8 +1,20 @@
-$color: blue;
-$main-width: 100px;
 
 
-body {
-    background-color: $color;
-    width: $main-width;
-}
+// base
+@import './base/reset';
+@import './base/common';
+
+// utilities 
+@import './utilities/variables';
+@import './utilities/hidden';
+
+// components
+@import './components/container';
+@import './components/buttons';
+
+// layouts-main 
+@import './layouts-main/header';
+@import './layouts-main/hero';
+
+
+
