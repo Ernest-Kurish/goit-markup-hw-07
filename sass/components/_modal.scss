@@ -18,7 +18,7 @@
   border-radius: 4px;
 }
 
-.modal-btn-close {
+.modal-btn__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -44,7 +44,7 @@
   }
 }
 
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -55,14 +55,14 @@
   color: rgba(33, 33, 33, 1);
 }
 
-.modal-block-name {
+.modal-block__name {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
 }
 
-.modal-input {
+.modal__input {
   padding-left: 42px;
   font-size: 14px;
   color: rgba(0, 0, 0, 1);
@@ -81,25 +81,25 @@
   }
 }
 
-.modal-icon {
+.modal__icon {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .modal-input:hover + &,
-  .modal-input:focus + & {
+  .modal__input:hover + &,
+  .modal__input:focus + & {
     fill: rgba(33, 150, 243, 1);
   }
 }
 
-.input-wrapper {
+.modal-input__wrapper {
   position: relative;
   margin-top: 4px;
 }
 
-.modal-field {
+.modal__field {
   margin-bottom: 10px;
 
   &:nth-child(4) {
@@ -107,7 +107,7 @@
   }
 }
 
-.comments {
+.modal__comments {
   margin-top: 4px;
   resize: none;
 
@@ -132,7 +132,7 @@
   }
 }
 
-.check-text {
+.modal-check__text {
   display: flex;
   align-items: center;
   margin-bottom: 3px;
@@ -144,18 +144,18 @@
   letter-spacing: 0.03em;
   color: #757575;
 
-  .modal-check:checked + & .icon-check-icon {
+  .modal__check:checked + & .modal-icon__check {
     background-color: #2196f3;
     border: none;
     fill: #ffffff;
   }
 
-  .modal-check:focus + & .icon-check-icon {
+  .modal__check:focus + & .modal-icon__check {
     border-color: #2196f3;
   }
 }
 
-.check-text .icon-check-icon {
+.modal-check__text .modal-icon__check {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -173,7 +173,7 @@
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-policy {
+.modal-link__policy {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
