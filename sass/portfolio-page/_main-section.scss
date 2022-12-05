@@ -1,3 +1,14 @@
+.portfolio-main-line {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-main-line .item+.item {
+  margin-left: 8px;
+}
+
 .about-section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;

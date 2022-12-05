@@ -544,23 +544,6 @@ body {
           align-items: center;
 }
 
-.portfolio-main-line {
-  margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.portfolio-main-line .item + .item {
-  margin-left: 8px;
-}
-
 .header-link__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -616,7 +599,7 @@ body {
 }
 
 /* Mail and Phone Number Header*/
-.email {
+.header__email {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -625,11 +608,11 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link__contacts .email:hover, .header-link__contacts .email:focus {
+.header-link__contacts .header__email:hover, .header-link__contacts .header__email:focus {
   color: var(--accent-color);
 }
 
-.phone {
+.header__phone {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -638,7 +621,7 @@ body {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link__contacts .phone:hover, .header-link__contacts .phone:focus {
+.header-link__contacts .header__phone:hover, .header-link__contacts .header__phone:focus {
   color: var(--accent-color);
 }
 
@@ -1097,6 +1080,23 @@ body {
   background-size: contain;
   fill: #ffffff;
   color: #ffffff;
+}
+
+.portfolio-main-line {
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-main-line .item + .item {
+  margin-left: 8px;
 }
 
 .about-section-portfolio {

@@ -75,17 +75,6 @@
   align-items: center;
 }
 
-.portfolio-main-line {
-  margin-bottom: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfolio-main-line .item + .item {
-  margin-left: 8px;
-}
-
 .header-link__contacts {
   display: flex;
   margin-left: auto;
@@ -134,7 +123,7 @@
 }
 
 /* Mail and Phone Number Header*/
-.email {
+.header__email {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
@@ -149,7 +138,7 @@
   }
 }
 
-.phone {
+.header__phone {
   color: var(--primary-text-color);
   font-weight: 500;
   line-height: 1.14;
