@@ -1200,7 +1200,7 @@ body {
   min-width: 130px;
 }
 
-.portfolio-title {
+.border-container__title {
   margin-bottom: 4px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -1209,13 +1209,8 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio-text {
+.border-container__text {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
-}
-
-.about-section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
