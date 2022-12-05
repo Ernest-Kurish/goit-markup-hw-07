@@ -1,25 +1,15 @@
-.team-section {
+.section-team {
   padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: #f5f4fa;
 }
 
-.team-section-main {
-  margin-bottom: 50px;
-
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.33;
-  text-align: center;
-}
-
-.team-introduction {
+.team-picture {
   padding: 30px 0;
 }
 
-.team-section-leader {
+.team-picture__leader {
   margin-bottom: 10px;
   text-align: center;
 
@@ -29,7 +19,7 @@
   line-height: 1.19;
 }
 
-.team-section-title {
+.team-picture__title {
   text-align: center;
   margin-bottom: 16px;
 
@@ -38,7 +28,7 @@
   line-height: 1.19;
 }
 
-.feature-team {
+.section-team__list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
@@ -48,7 +38,7 @@
   }
 }
 
-.feature-team .item {
+.section-team__list .item {
   width: calc((100% - 90px) / 4);
 
   background: #ffffff;
