@@ -1,4 +1,4 @@
-.logo-footer {
+.logo__footer {
   display: block;
   margin-bottom: 20px;
 }
@@ -17,11 +17,11 @@
   text-decoration: none;
 }
 
-.street {
+.footer-address__street {
   margin-bottom: 9px;
 }
 
-.footer-email {
+.footer__email {
   display: block;
 
   margin-bottom: 9px;
@@ -31,7 +31,7 @@
   text-decoration: none;
 }
 
-.footer-phone {
+.footer__phone {
   display: block;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -40,12 +40,12 @@
 }
 
 /* -------------------FOOTER ICONS ------------------*/
-.footer-content {
+.footer__content {
   display: flex;
   align-items: baseline;
 }
 
-.footer-info {
+.footer__contacts {
   margin-right: 70px;
 }
 
@@ -54,7 +54,7 @@
   justify-content: center;
 }
 
-.footer-icon-header {
+.footer-icon__header {
   margin-bottom: 20px;
   display: flex;
   display: inline-block;
@@ -66,17 +66,17 @@
   color: #ffffff;
 }
 
-.footer-icon-list {
+.footer-icon__list {
   display: flex;
   gap: 10px;
 }
 
-.footer-icon-item {
+.footer-icon__item {
   width: 44px;
   height: 44px;
 }
 
-.footer-icon-link {
+.footer-icon__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,24 +95,17 @@
   }
 }
 
-.footer-icon-logo {
+.footer-icon__logo {
   fill: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*    FOOTER FORM */
-
 .footer-form {
-  display: flex;
-  margin-top: 20px;
-  gap: 12px;
-}
-
-.footer-form-section {
   margin-left: 93px;
 }
 
-.footer-form-header {
+.footer-form__header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -121,7 +114,13 @@
   color: #ffffff;
 }
 
-.email-form {
+.footer-form__items {
+  display: flex;
+  margin-top: 20px;
+  gap: 12px;
+}
+
+.footer-form__email {
   padding-left: 16px;
   width: 358px;
   height: 50px;
@@ -144,7 +143,7 @@
   }
 }
 
-.footer-button-submission {
+.footer-form__button {
   display: flex;
   justify-content: center;
   align-items: center;
