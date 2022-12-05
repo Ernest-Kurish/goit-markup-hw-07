@@ -1,27 +1,31 @@
-.portfolio-main-line {
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-portfolio__menu {
   margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.portfolio-main-line .item+.item {
+.section-portfolio__menu .item+.item {
   margin-left: 8px;
 }
 
-.about-section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
-.flex-list {
+// 9 WINDOWS
+
+
+.portfolio-categories {
   display: flex;
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
 }
 
-.flex-element {
+.portfolio-categories__element {
   width: calc((100% - 60px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
