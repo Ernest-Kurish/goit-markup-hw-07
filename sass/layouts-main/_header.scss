@@ -8,20 +8,20 @@
   text-decoration: none;
 }
 
-.page-header {
+.header {
   border-bottom: 1px solid #ececec;
   background-color: #ffffff;
 }
 
-.accent-header {
+.logo-accent__header {
   color: rgba(0, 0, 0, 1);
 }
 
-.accent-footer {
+.logo-accent__footer {
   color: rgba(255, 255, 255, 1);
 }
 
-.accent-web {
+.logo-accent__web {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -30,7 +30,7 @@
   letter-spacing: 0.03em;
 }
 
-.item-icon {
+.header__icon {
   display: flex;
   align-items: center;
   fill: currentColor;
@@ -51,13 +51,13 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .site-nav &:hover,
-  .site-nav &:focus {
+  .header-link__main &:hover,
+  .header-link__main &:focus {
     color: var(--accent-color);
   }
 }
 
-.site-nav .link {
+.header-link__main .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -70,7 +70,7 @@
 }
 
 /* ----------------------------- ALIGNIGN ALL LINKS ---------------*/
-.main-line {
+.header__menu {
   display: flex;
   align-items: center;
 }
@@ -86,28 +86,28 @@
   margin-left: 8px;
 }
 
-.auth-nav {
+.header-link__contacts {
   display: flex;
   margin-left: auto;
 }
 
-.auth-nav .item {
+.header-link__contacts .item {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.auth-nav .item + .item {
+.header-link__contacts .item + .item {
   margin-left: 50px;
 }
 
-.logo-padding {
+.logo__padding {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
 }
 
-.site-nav {
+.header-link__main {
   display: flex;
   margin-left: 93px;
 
@@ -125,11 +125,11 @@
   }
 }
 
-.site-nav .item + .item {
+.header-link__main .item + .item {
   margin-left: 50px;
 }
 
-.site-nav .link.current {
+.header-link__main .link.current {
   color: var(--accent-color);
 }
 
@@ -143,8 +143,8 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .auth-nav &:hover,
-  .auth-nav &:focus {
+  .header-link__contacts &:hover,
+  .header-link__contacts &:focus {
     color: var(--accent-color);
   }
 }
@@ -158,8 +158,8 @@
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  .auth-nav &:hover,
-  .auth-nav &:focus {
+  .header-link__contacts &:hover,
+  .header-link__contacts &:focus {
     color: var(--accent-color);
   }
 }
