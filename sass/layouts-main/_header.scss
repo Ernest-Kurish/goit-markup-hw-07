@@ -15,7 +15,7 @@
   background-color: #ffffff;
 }
 
-.logo-accent__header {
+.logo__header--accent {
   color: rgba(0, 0, 0, 1);
 }
 
@@ -23,7 +23,7 @@
   color: rgba(255, 255, 255, 1);
 }
 
-.logo-accent__web {
+.logo__web--accent {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 
@@ -39,7 +39,7 @@
 
 /* Remove Text Decorations */
 
-.header-link__main .link {
+.header__link--main .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -54,6 +54,11 @@
 
 /* ----------------------------- ALIGNIGN ALL LINKS ---------------*/
 .header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
   display: flex;
   align-items: center;
 }
@@ -79,7 +84,7 @@
   padding-bottom: 25px;
 }
 
-.header-link__main {
+.header__link--main {
   display: flex;
   margin-left: 93px;
 
@@ -97,11 +102,11 @@
   }
 }
 
-.header-link__main .item + .item {
+.header__link--main .item + .item {
   margin-left: 50px;
 }
 
-.header-link__main .link.current {
+.header__link--main .link.current {
   color: var(--accent-color);
 }
 
