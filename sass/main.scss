@@ -3,6 +3,7 @@
 // base
 @import './base/reset';
 @import './base/common';
+@import './utilities/mixins';
 
 // utilities 
 @import './utilities/variables';
@@ -26,8 +27,6 @@
 @import './layouts-main/section-team';
 @import './layouts-main/section-clients';
 @import './layouts-main/footer';
-
-
 
 
 // PORTFOLIO 
