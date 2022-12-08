@@ -22,7 +22,7 @@
   }
 }
 
-.section-title__main {
+.title-main {
   margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-.section-title__secondary {
+.title-secondary {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -39,7 +39,7 @@
   text-transform: uppercase;
 }
 
-.section-title__text {
+.title-secondary__text {
   margin-top: 10px;
   color: var(--primary-text-color);
   line-height: 2;

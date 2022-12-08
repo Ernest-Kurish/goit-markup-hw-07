@@ -63,7 +63,7 @@ body {
   color: var(--accent-color);
 }
 
-.section-title__main {
+.title-main {
   margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
@@ -72,7 +72,7 @@ body {
   text-align: center;
 }
 
-.section-title__secondary {
+.title-secondary {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -80,7 +80,7 @@ body {
   text-transform: uppercase;
 }
 
-.section-title__text {
+.title-secondary__text {
   margin-top: 10px;
   color: var(--primary-text-color);
   line-height: 2;
@@ -525,10 +525,6 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.logo-accent__footer {
-  color: rgb(255, 255, 255);
-}
-
 .logo__web--accent {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -883,6 +879,10 @@ body {
   font-style: normal;
   line-height: 2;
   text-decoration: none;
+}
+
+.logo__accent--footer {
+  color: rgb(255, 255, 255);
 }
 
 /* -------------------FOOTER ICONS ------------------*/
